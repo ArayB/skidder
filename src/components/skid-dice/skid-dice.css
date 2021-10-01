@@ -1,0 +1,27 @@
+.skid-dice {
+  width:120px;
+  height: 120px;
+  background-color: #cccccc;
+  display: inline-block;
+  margin: 15px;
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.slide {
+  background-image: url('./images/slide.svg')
+}
+
+.spin {
+  background-image: url('./images/spin.svg')
+}
+
+.hazard {
+  background-image: url('./images/hazard.svg')
+}
+
+.shift {
+  background-image: url('./images/shift.svg')
+}

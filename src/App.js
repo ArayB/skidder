@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import SkidDice from './components/skid-dice'
+import { useState } from 'react'
 
 function App() {
+  const [rolls, setRolls] = useState([])
+
+  const setRolledDice = (no) => {
+    var rolling = Array.from({length: no}, () => Math.floor(Math.random() * 6));
+    setRolls(rolling)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>
+        Skidder
+      </h1>
+      <p>
+        Tap number of dice to roll:
+      </p>
+      <div>
+        <button className="roll-button" value="1" onClick={() => setRolledDice(1)}>1</button>
+        <button className="roll-button" value="2" onClick={() => setRolledDice(2)}>2</button>
+        <button className="roll-button" value="3" onClick={() => setRolledDice(3)}>3</button>
+        <button className="roll-button" value="4" onClick={() => setRolledDice(4)}>4</button>
+        <button className="roll-button" value="5" onClick={() => setRolledDice(5)}>5</button>
+      </div>
+      <p>
+      </p>
+      <div>
+        { rolls.map((roll, index) => <SkidDice key={index} roll={roll} />) }
+      </div>
     </div>
   );
 }
