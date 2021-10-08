@@ -24,8 +24,11 @@ export const skidderSlice = createSlice({
 
       state.rolls = rolling
     },
-    selectForReroll: (state, action) => {
-      if (!state.selectedForReroll.includes(action.payload)){
+    toggleForReroll: (state, action) => {
+      if (state.selectedForReroll.includes(action.payload)){
+        var index = state.selectedForReroll.indexOf(action.payload);
+        state.selectedForReroll.splice(index, 1);
+      } else {
         state.selectedForReroll.push(action.payload);
       }
     },
@@ -39,6 +42,6 @@ export const skidderSlice = createSlice({
   }
 })
 
-export const { setRerolling, createRolls, selectForReroll, reroll, reset } = skidderSlice.actions
+export const { setRerolling, createRolls, toggleForReroll, reroll, reset } = skidderSlice.actions
 
 export default skidderSlice.reducer

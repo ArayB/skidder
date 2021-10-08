@@ -1,6 +1,6 @@
 import './skid-dice.css'
 import { useSelector, useDispatch } from 'react-redux'
-import { selectForReroll } from '../../components/skidderSlice'
+import { toggleForReroll } from '../../components/skidderSlice'
 
 function SkidDice(props) {
   const rerolling = useSelector((state) => state.skidder.rerolling)
@@ -27,7 +27,7 @@ function SkidDice(props) {
 
   const handleClick = () => {
     if (rerolling === true && !rerolled) {
-      dispatch(selectForReroll(props.index));
+      dispatch(toggleForReroll(props.index));
     } else {
       console.log('rerolling no')
     }
