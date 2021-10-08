@@ -25,3 +25,19 @@
 .shift {
   background-image: url('./images/shift.svg')
 }
+
+.skid-dice--inner {
+  width: 100%;
+  height: 100%;
+}
+
+.skid-dice--inner-selected {
+  background-color: #aa0000;
+  opacity: 0.1;
+}
+
+.skid-dice--inner-rerolled {
+  background-color: #00ffaa;
+  opacity: 0.1;
+}
+
