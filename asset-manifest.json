@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/skidder/static/css/main.30228c78.chunk.css",
-    "main.js": "/skidder/static/js/main.4836fdc4.chunk.js",
-    "main.js.map": "/skidder/static/js/main.4836fdc4.chunk.js.map",
+    "main.css": "/skidder/static/css/main.be6e57e9.chunk.css",
+    "main.js": "/skidder/static/js/main.760bd7e7.chunk.js",
+    "main.js.map": "/skidder/static/js/main.760bd7e7.chunk.js.map",
     "runtime-main.js": "/skidder/static/js/runtime-main.62ff99dc.js",
     "runtime-main.js.map": "/skidder/static/js/runtime-main.62ff99dc.js.map",
-    "static/js/2.52596bbf.chunk.js": "/skidder/static/js/2.52596bbf.chunk.js",
-    "static/js/2.52596bbf.chunk.js.map": "/skidder/static/js/2.52596bbf.chunk.js.map",
+    "static/js/2.224f6e24.chunk.js": "/skidder/static/js/2.224f6e24.chunk.js",
+    "static/js/2.224f6e24.chunk.js.map": "/skidder/static/js/2.224f6e24.chunk.js.map",
     "index.html": "/skidder/index.html",
-    "static/css/main.30228c78.chunk.css.map": "/skidder/static/css/main.30228c78.chunk.css.map",
-    "static/js/2.52596bbf.chunk.js.LICENSE.txt": "/skidder/static/js/2.52596bbf.chunk.js.LICENSE.txt",
+    "static/css/main.be6e57e9.chunk.css.map": "/skidder/static/css/main.be6e57e9.chunk.css.map",
+    "static/js/2.224f6e24.chunk.js.LICENSE.txt": "/skidder/static/js/2.224f6e24.chunk.js.LICENSE.txt",
     "static/media/skid-dice.css": "/skidder/static/media/spin.250a2b04.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.62ff99dc.js",
-    "static/js/2.52596bbf.chunk.js",
-    "static/css/main.30228c78.chunk.css",
-    "static/js/main.4836fdc4.chunk.js"
+    "static/js/2.224f6e24.chunk.js",
+    "static/css/main.be6e57e9.chunk.css",
+    "static/js/main.760bd7e7.chunk.js"
   ]
 }
